@@ -1,0 +1,45 @@
+/* Asi dejamos el fondo de la pagina */
+body {
+    background-color: #eeeeee;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Titulo */
+h1 {
+    color: black;
+}
+
+/* Cajas de las funciones */
+.caja {
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Boton */
+button {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Cuando pasamos por el boton */
+button:hover {
+    background-color: blue;
+}
+
+/* Caja que esta activa */
+.activa {
+    background-color: lightblue;
+    border: 2px solid blue;
+}
+
+/* Enlace */
+a {
+    color: blue;
+}

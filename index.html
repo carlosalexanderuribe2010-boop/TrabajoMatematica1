@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Funciones Lineales y Afines</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Clasificador de Funciones</h1>
+
+    <p id="b">b = 0</p>
+    <p id="c">c = 0</p>
+
+    <!-- Este boton cambia los numeros -->
+    <button onclick="generar()">Generar numeros</button>
+
+    <h2 id="formula">f(x) = 0x + 0</h2>
+
+    <h2 id="resultado">Resultado</h2>
+
+    <!-- Parte de la funcion lineal -->
+    <div class="caja" id="lineal">
+        <h2>LINEAL</h2>
+        <p id="infoLineal">La funcion pasa por el origen.</p>
+    </div>
+
+    <!-- Parte de la funcion afin -->
+    <div class="caja" id="afin">
+        <h2>AFÍN</h2>
+        <p id="infoAfin">La funcion corta el eje Y fuera del origen.</p>
+    </div>
+
+    <p>Para ver la grafica puedes entrar aqui:</p>
+
+    <a href="https://www.geogebra.org/classic" target="_blank">
+        Abrir GeoGebra
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
